@@ -1,0 +1,42 @@
+버전 관리 시스템
+    svn, ... git
+
+    git과 github연동
+
+git 설치 확인
+    terminal(맥북) / cmd > git --version
+    버전정보가 나오면 설치되어있다.
+
+git 설치
+    google git 검색 > 가장 위 링크 클릭 > 우측 컴퓨터모양 download for windows 버튼 클릭 >
+    click here for download
+
+git의 기본개념
+    git은 버전을 관리하기 위해서 작업공간(폴더)을 세 개의 논리적인 단위로 관리한다
+    1. 작업광간(working space / working tree)
+    2. 스테이지(stage)
+    3. 래포지토리(repository)
+
+git의 저장소 설정하기
+    내가 버전관리를 하고 싶은 폴더로 이동하여 그 안에서
+        git init
+    실행
+
+    git 저장소로 활용하고 있는 폴더 안에서 또다른 폴더를 git 저장소로 활용할 수는 없다
+
+terminal(맥북) / cmd 명령어
+    cd 폴더이름
+    해당 폴더로 이동
+    폴더이름에 띄어쓰기가 있으면 쌍따옴표나 작은따옴표로 감싸줘야 한다
+
+    window
+        cmd 는 키면 위치가 기본적으로 "C:/Users/계정" 이다
+        \(역슬래쉬) == 안에있는
+
+        드라이브 이동
+            D:
+            C:
+        
+        폴더이동
+            cd "폴더명/하위폴더/하위폴더"
+
